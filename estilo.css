@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+}
+
+body {
+  background: rgb(203, 203, 209);
+  font: normal 15pt Arial;
+}
+
+section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(./math_01.webp);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  padding: 50px;
+  width: 800px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.574);
+  color: white;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+input {
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px;
+  width: 80%;
+}
+
+.botao {
+  background-color: gray;
+}
+
+.botao:hover {
+  background-color: rgba(128, 128, 128, 0.274);
+}
+
+#flista {
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+footer {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-style: italic;
+}
